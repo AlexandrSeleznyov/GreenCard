@@ -1,0 +1,41 @@
+.container {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  @media (min-width: 320px) {
+    .container {
+      max-width: 320px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding: 0 50px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 110px;
+    }
+  }
+
+  .output{
+    font-size: 21px;
+    font-weight: bold;
+    color: #00a8e4;
+  }
+
+  .select{
+    background-color: #FBFBFB;
+    border: 1px solid #CDCDCD;
+    box-shadow: 0 0 3px rgb(0 0 0 / 29%) inset;
+    color: #00417D;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 26px;
+    line-height: 20px;
+    padding: 2px 5px;
+    width: 50%;
+  }
