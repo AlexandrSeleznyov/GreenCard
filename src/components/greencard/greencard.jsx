@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import s from "./greencard.module.css";
-import hero from "../../image/1.jpg";
+import hero from "../../image/Hero.jpg";
 import logo1 from "../../image/1_gray.png";
 import logo2 from "../../image/4_gray.png";
 import logo3 from "../../image/2_gray.png";
@@ -40,7 +40,7 @@ export default function GreenCard() {
   return (
     <div className={s.container}>
       <div>
-        <img src={hero} alt="qqq" />
+        <img src={hero} alt="qqq" style={{ height: 400 }} />
       </div>
       <h1 style={{ textAlign: "center", color: "green" }}>Green Card</h1>
 
